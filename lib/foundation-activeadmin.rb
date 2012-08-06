@@ -2,6 +2,7 @@ require "foundation-activeadmin/version"
 
 module Foundation
   module Activeadmin
-    # Your code goes here...
+    class Engine < Rails::Engine
+    end
   end
 end
