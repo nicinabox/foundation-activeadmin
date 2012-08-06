@@ -1,0 +1,15 @@
+.logged_out {
+  #footer {
+    display: none;
+  }
+  #wrapper {
+    margin-top: 30px;
+  }
+  #content_wrapper {
+    @include column(6, center);
+  }
+}
+
+.button input {
+  @extend .button;
+}

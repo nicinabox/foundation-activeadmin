@@ -15,5 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Foundation::Activeadmin::VERSION
 
-  gem.add_dependency 'zurb-foundation', ['~> 3.0']
+  gem.add_dependency 'compass-rails'
+  gem.add_dependency 'zurb-foundation', '~> 3.0'
 end

@@ -1,3 +1,4 @@
+require 'zurb-foundation'
 require "foundation-activeadmin/version"
 
 module Foundation

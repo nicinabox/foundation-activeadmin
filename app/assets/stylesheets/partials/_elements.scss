@@ -1,0 +1,6 @@
+.flash {
+  @extend .alert-box;
+  &.flash_alert {
+    @extend .alert;
+  }
+}
