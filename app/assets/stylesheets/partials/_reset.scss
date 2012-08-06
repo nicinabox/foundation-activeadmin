@@ -13,7 +13,7 @@ form {
   ol, ul {
     list-style: none;
   }
-  label.label {
+  .label {
     background: none;
     text-align: left;
     padding: 0;
@@ -29,10 +29,22 @@ form {
   }
 }
 
-.attributes_table table {
+table {
   width: 100%;
   th {
     text-align: left;
     padding: 10px;
+  }
+}
+
+select {
+  margin-bottom: 12px;
+}
+.custom {
+  &.checkbox, &.radio {
+    margin-right: 5px;
+  }
+  &.dropdown {
+    padding: 0 !important;
   }
 }

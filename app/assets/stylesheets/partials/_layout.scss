@@ -87,9 +87,11 @@
   thead {
     th {
       @include font-size(13);
-      cursor: pointer;
-      &:hover {
-        background: #ddd;
+      &.sortable {
+        cursor: pointer;
+        &:hover {
+          background: #ddd;
+        }
       }
       a {
         color: #444;
@@ -126,6 +128,20 @@ form {
       margin: 5px 10px;
     }
   }
+  .input {
+    @include innerRow(collapse);
+    label {
+      @include column(2);
+    }
+    input, select, textarea,
+    .custom.dropdown {
+      @include column(10);
+    }
+    input, select, textarea {
+      padding: 6px;
+    }
+  }
+
 }
 
 .blank_slate_container {
